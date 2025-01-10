@@ -1,5 +1,5 @@
 ---
- - hosts: inventory
+ - hosts: 172.31.23.141
    become: true  
    tasks: 
      - name: install tree on required servers
