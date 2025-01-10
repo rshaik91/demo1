@@ -1,5 +1,5 @@
 ---
- - hosts: 172.31.23.141
+ - hosts: all
    become: true  
    tasks: 
      - name: install tree on required servers
