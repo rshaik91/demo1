@@ -1,5 +1,5 @@
 ---
- - hosts: dev.inv
+ - hosts: inventory
    become: true  
    tasks: 
      - name: install tree on required servers
